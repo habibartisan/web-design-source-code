@@ -1,4 +1,4 @@
-(1).../##-- First basic Navber option --##
+(1).../##-- First basic Navber option --##    -----( বাম পাশে লেখা এবং ডান পাশের মেনু )
 <style>
        .navbar{
           border-bottom: 3px solid $primary-color;
