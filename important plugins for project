@@ -1,8 +1,18 @@
 #1./
-     single-page ওয়েবসাইট এর মেনুতে ক্লিক করলে যাতে সেকশান ওয়াইজ শো করে 
-     এর জন্য এই Plugin টি ব্যবহার হয় যাতে smoothly scroll down হয়ে 
-      সেকশনে পৌঁছাতে পারে..
+    * single-page ওয়েবসাইট এর মেনুতে ক্লিক করলে যাতে সেকশান ওয়াইজ শো করে 
+      এর জন্য এই Plugin টি ব্যবহার হয় যাতে smoothly scroll down হয়ে 
+       সেকশনে পৌঁছাতে পারে..
+       
       Download Link..............
       https://www.jqueryscript.net/menu/jQuery-Plugin-Fixed-Bootstrap-4-Nav-Smooth-Scroll-navbar-fixed-js.html
+      
+    * Used this plugin for your single-page website
+    1. Download thsi plugin
+    2. Than extract here
+    3. Your are need to two files css and js
+       ->navbar-fixed.css
+       ->navbar-fixed.js
+    4. Copy these two files and paste your project
+    5. পরিশেষে দুটি ফাইল আপনার প্রজেক্টে লিংক আপ করে (CSS and JS)
 
 
