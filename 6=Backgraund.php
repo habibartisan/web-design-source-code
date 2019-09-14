@@ -21,7 +21,7 @@
 
 
    *** Overlay + Background ***
-    background:linear-gradient(rgba(135, 80, 156, 0.9),rgba(135, 80, 156, 0.9)),url(img/hero-bg.jpg);
+    background:linear-gradient(rgba(135, 80, 156, 0.9),rgba(135, 80, 156, 0.9)),url('img/hero-bg.jpg');
 
   *** Color + Background ***
      background: lightblue url("../img/mountains.jpg") no-repeat fixed center;
