@@ -15,9 +15,9 @@
                
 
        1.Rotate
-           transform:translate(10px, 10px) 
-           transform:translateX(10px) 
-           transform:translateY(10px) 
+           transform:rotate(angle or deg)
+           transform:rotateX(angle )  
+           transform:rotateY(angle)   
            
        2.Scale
            transform:scale(x,y) 
