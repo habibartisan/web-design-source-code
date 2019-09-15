@@ -1,1 +1,39 @@
 
+                              ** Transition  ----------- Main (dev/element) এ ব্যবহার করা হয়
+                      -----------------------------------------------------------------------------------
+                              ** Transform   ----------- Main (dev/element) এর :hover এ ব্যবহার করা হয়
+======================================================================================================================================
+   
+   
+   (@) Transform --------হচ্ছে শক্তিশালী রাজা  
+               যার অনেকগুলা সৈন্য বা property আছে 
+               
+               ->rotate(deg)     --- গুড়িয়ে দেয়
+               ->scale(1.1)      --- বড় করে থামেস শেষে / সাইজটা পিরবতন করার জন 
+               ->translate(px)   --- ধাক্কা দিয়ে উড়িয়ে দেয়/ সরােনার জন 
+               ->skew(deg)       --- চ্যাপ্টা করে দেয় / বাকা তরা করার জন 
+               
+
+       1.Rotate
+           transform:translate(10px, 10px) 
+           transform:translateX(10px) 
+           transform:translateY(10px) 
+           
+       2.Scale
+           transform:scale(x,y) 
+           transform:scaleX(x)                                           
+           transform:scaleY(y)   
+           
+       3.Translate
+           transform:translate(10px, 10px)
+           transform:translateX(10px) 
+           transform:translateY(10px) 
+           
+       4.Skew
+           transform:skew(x-angle,y-angle or deg) 
+           transform:skewX(angle)  
+           transform:skewY(angle) 
+ --------------------------------------------------------------------------------------------------------------------------------------
+ 
+   (@) Transform --------হচ্ছে নরমী রাজা  
+              transition: 1s;
