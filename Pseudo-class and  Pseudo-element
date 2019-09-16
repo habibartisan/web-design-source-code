@@ -30,7 +30,16 @@
                       4.  ::first-line   
          
                           
-                          
-                          
+            **// Example of Pseudo Element
+                        
+                      p::first-letter{--}
+                      p::first-line{--}
+                      
+                      p::before/after{  
+                                      content:"--";
+                                   } 
+            
+            **// Life Example of Before and After
+            
                           
 =========================================================================================================================================                          
