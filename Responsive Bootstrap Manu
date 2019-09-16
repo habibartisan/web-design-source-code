@@ -38,7 +38,7 @@
 
 2../Advance bootstrap responsive navigation menu
      ডান পাশে মেনু এবং বাম পাশের লোগু-with-লেখা এই পদ্ধতিতে Manu Create করা হয়েছে
-=========================================================================  
+================================================================================= 
           <style>
                .navbar {
                          box-shadow: 2px 2px 5px #3292a6;
@@ -88,3 +88,52 @@
                 </div>
               </div>
             </nav>
+ ----------------------------------------------------------------------------------------
+ 
+ 3../Advance bootstrap + Uikit (কাস্টম মেনু বার) responsive navigation menu
+     ডান পাশে মেনু এবং বাম পাশের লেখা এই পদ্ধতিতে Manu Create করা হয়েছে
+================================================================================= 
+
+        <style>
+               .navbar {
+                    background: #000; 
+                    }
+               .navbar .nav-link {
+                   font-size: 16px;
+                   text-transform: uppercase;
+                   padding-left: 1em !important;
+                   padding-right: 1em !important; 
+                   }
+        </style>
+
+
+
+          <!-- Navigation -->
+           <nav class="navbar navbar-dark navbar-expand-md" uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+             <div class="container">
+               <a href="index.html" class="navbar-brand">Glozzom</a>
+               <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div id="navbarNav" class="collapse navbar-collapse">
+                 <ul class="navbar-nav ml-auto">
+                   <li class="nav-item active">
+                     <a class="nav-link" href="index.html">Home</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="about.html">About Us</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="services.html">Services</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="blog.html">Blog</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Contact</a>
+                   </li>
+                 </ul>
+                </div>
+              </div>
+            </nav>
+ 
