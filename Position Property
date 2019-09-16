@@ -1,1 +1,69 @@
 
+                                       আশ্রয় যে দিবে সে    ----->  Relative
+                                       ------------------------------------
+                                       আশ্রিত যে হবে সে    ------> Absolute
+              ------------------------------------------------------------------------------------       
+                                   Relative যা করবে সে অনুযায়ী Absolute পরিবর্তন হবে   
+==============================================================================================================================
+    
+    **// Just used the Absolute this topic //**
+                      
+                         <div class="green-box">----</div>  
+                         ---------------------------------      
+                              ** যিদ right এর উপের রাখেত চাও 
+                              <style>
+                                   .green-box{ 
+                                               width:200px; 
+                                               height:200px; 
+                                               background: green; 
+                                               position:absolute; 
+                                               top: 0; 
+                                               right: 0;  
+                                           } 
+                              </style>
+                              
+                              ** যিদ left  এর উপের রাখেত চাও        →  top:0; left: 0; 
+                              ** যিদ right এর নিচে রাখেত চাও         →  bottom:0; right:0;
+                              ** যিদ left এর  নিচে রাখেত চাও         →  bottom:0; left:0; 
+                              
+                              
+                              ** যিদ Top    এর মধখােন রাখেত চাও     → top:0; left: 0;  right:0;  margin:auto;  
+                              ** যিদ bottom এর মধখােন রাখেত চাও     → bottom:0; left: 0;  right:0;  margin:auto;  
+                              ** যিদ left   এর মধখােন রাখেত চাও     → top:0; bottom:0; left: 0; margin:auto;  
+                              ** যিদ right  এর  মধখােন রাখেত চাও    → top:0; bottom:0; right: 0; margin:auto; 
+                              
+                              */** যিদ  মধখােন রাখেত চাও    → top:0; bottom:0; left: 0; right:0; margin:auto; **/* 
+=================================================================================================================================
+
+  **// How to Use Relative and Absolutee Together **//
+  Relative এর সাপেক্ষে Absolute সেট করতে গেলে যা করতে হবে
+  
+          **একটি ছোট্ট একটা প্রজেক্ট সেটি হচ্ছে কিভাবে একটি বাংলাদেশের পতাকা তৈরি করতে হয় **
+      
+                          <div class="green-box"> 
+                                <div class="red-box">---</div> 
+                          </div> 
+                        -------------------------------------------
+                        
+                        <style>
+                               .green-box{  
+                                           width:300px; 
+                                           height:200px; 
+                                           background: green; 
+                                           position:relative;   
+                                      } 
+                              .red-box{  
+                                           width:150px; 
+                                           height:150px; 
+                                           background: red; 
+                                           position:absolute; 
+                                           top:0; 
+                                           left:0; 
+                                           right: 0; 
+                                           bottom: 0; 
+                                           margin: auto; 
+                                           border-radius: 50%; 
+                                      }     
+                        </style>
+   ==================================================================================================================    
+ 
