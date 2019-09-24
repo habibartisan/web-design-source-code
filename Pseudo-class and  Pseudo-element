@@ -40,6 +40,49 @@
                                    } 
             
             **// Life Example of Before and After
+          
+          Example-1:বিফোর আফটার ব্যবহার করে কিভাবে ট্যাক্স এর নিচে ছবি অথবা কালার করার নিয়ম
+          
+            <h3 class="mamam" style="text-align: center;"">Sagor Ahmed</h3>
+            <style>
+                .mamam::after{
+                        content:'';
+                        background: #7b1798;
+                        height: 1px;
+                        width: 107px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: block;
+                        transform: translateY(8px);
+                     }
+            <style>
             
-                          
+          
+          
+            Example-1:বিফোর আফটার ব্যবহার করে কিভাবে ট্যাক্স এর নিচে কালার Overlappin করার নিয়ম
+              
+             <p class="title" style="text-align: center;">Habibur Rahman</p>
+             <style>
+               .title::before{
+                      content:'';
+                      background: #7b1798;
+                      height: 5px;
+                      width: 200px;
+                      margin-left: auto;
+                      margin-right: auto;
+                      display: block;
+                      transform: translateY(34px);
+                    }
+                      .title::after{
+                      content:'';
+                      background: #7b1798;
+                      height: 10px;
+                      width: 50px;
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-bottom: 40px;
+                      display: block;
+                      transform: translateY(8px);
+                    }
+            <style>
 =========================================================================================================================================                          
