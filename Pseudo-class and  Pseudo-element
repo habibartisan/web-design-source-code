@@ -129,4 +129,89 @@
                     z-index: -1;
                   }
               </style>
+              
+              
+             Example-4:বিফোর আফটার ব্যবহার করে কিভাবে Resume এর পাশে লম্বা রাখা এবং border-radius কিভাবে একসাথে দেওয়া নিয়ম
+             -------------------------------------------------------------------------------------------------------------
+             
+             <section id="resume" class="resume">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                          <h3 class="text-center">My Experiences</h3>
+                          <ul class="timeline">
+                            <li>
+                              <h4 class="text-white"><span>2019 -</span>Front End Developer</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, labore magni dignissimos doloribus minima unde dicta placeat impedit possimus temporibus voluptatem esse! Tenetur excepturi, est. Nostrum illo, eum vero expedita!
+                              <b>Company</b> -xyz Company Pvt Ltd<br/>
+                              <b>Company</b> -xyz Company Pvt Ltd<br/>
+                              <b>Company</b> -xyz Company Pvt Ltd<br/>
+                              </p>
+                            </li>
+                            <li>
+                              <h4 class="text-white"><span>2019 -</span>Front End Developer</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, labore magni dignissimos doloribus minima unde dicta placeat impedit possimus temporibus voluptatem esse! Tenetur excepturi, est. Nostrum illo, eum vero expedita!
+                              <b>Company</b> -xyz Company Pvt Ltd<br/>
+                              <b>Company</b> -xyz Company Pvt Ltd<br/>
+                              <b>Company</b> -xyz Company Pvt Ltd<br/>
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+             </section>
+             
+             <style>
+                  .resume{
+                    padding-top: 50px;
+                    padding-bottom: 30px;
+                    background: #f9f9f9;
+                  }
+                  .timeline h3{
+                    margin-bottom: 50px;
+                  }
+                  .timeline{
+                    list-style-type: none;
+                    position: relative;
+                  }
+                  .timeline li{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    margin-left: 20px;
+                    background: #fff;
+                  }
+                  .timeline li h4{
+                    background-color: #000;
+                    padding: 5px 0 5px 20px;
+                    column-rule-color: #fff;
+                    font-size: 15px;
+                  }
+                  .timeline li h4 span{
+                    font-weight: bold;
+                    color: #ccc;
+                  }
+                  .timeline::before{
+                    content: '';
+                    background: #555;
+                    display: inline-block;
+                    position: absolute;
+                    left: 29px;
+                    width: 2px;
+                    height: 100%;
+                    z-index: 1;
+                  }
+                  .timeline li::before{
+                    content: '';
+                    background: #fff;
+                    display: inline-block;
+                    position: absolute;
+                    border: 3px solid #000;
+                    border-radius: 50%;
+                    left: 20px;
+                    width: 20px;
+                    height: 20px;
+                    z-index: 1;
+                  }
+             </style>
 =========================================================================================================================================                          
