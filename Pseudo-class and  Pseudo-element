@@ -39,10 +39,12 @@
                                       content:"--";
                                    } 
             
+            
+            
             **// Life Example of Before and After
           
           Example-1:বিফোর আফটার ব্যবহার করে কিভাবে ট্যাক্স এর নিচে ছবি অথবা কালার করার নিয়ম
-          
+          --------------------------------------------------------------------------------
             <h3 class="mamam" style="text-align: center;"">Sagor Ahmed</h3>
             <style>
                 .mamam::after{
@@ -59,8 +61,8 @@
             
           
           
-            Example-1:বিফোর আফটার ব্যবহার করে কিভাবে ট্যাক্স এর নিচে কালার Overlappin করার নিয়ম
-              
+            Example-2:বিফোর আফটার ব্যবহার করে কিভাবে ট্যাক্স এর নিচে কালার Overlappin করার নিয়ম
+            ---------------------------------------------------------------------------------  
              <p class="title" style="text-align: center;">Habibur Rahman</p>
              <style>
                .title::before{
@@ -85,4 +87,46 @@
                       transform: translateY(8px);
                     }
             <style>
+            
+            
+             Example-3:বিফোর আফটার ব্যবহার করে কিভাবে box-shadow এর নিচে কালার Overlappin করার নিয়ম
+             ---------------------------------------------------------------------------------------
+              <div class="title-style">
+                 <h1>Habibur Rahman</h1>
+             </div>
+               <style>
+                  .title-style h1{
+                    padding:40px 0;
+                    text-align: center;
+                  }
+                  .title-style{
+                    margin: 0 auto 80px;
+                    height: 120px;
+                    width: 80%;
+                    max-width: 700%;
+                    background: #fff;
+                    position: relative;
+                    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+                  }
+                  .title-style::after{
+                    content: '';
+                    height: 100px;
+                    width: 200px;
+                    background-color: #f992a6;
+                    position: absolute;
+                    top: -10px;
+                    left: -10px;
+                    z-index: -1;
+                  }
+                  .title-style::before{
+                    content: '';
+                    height: 100px;
+                    width: 200px;
+                    background-color: #f992a6;
+                    position: absolute;
+                    bottom: -10px;
+                    right: -10px;
+                    z-index: -1;
+                  }
+              </style>
 =========================================================================================================================================                          
