@@ -1,0 +1,117 @@
+                                         
+                                         
+                                               WEB-DESIGN---HTML---DOCUMENTATION
+                                   ------------------------------------------------------------------
+
+Headings               -- (from h1 to h6) h1 একটি পৃষ্ঠা একবার ব্যবহার করা যেতে পারে
+Paragraphs             -- p
+Style                  -- style="text-align: center; color: green; font-size:50px; background-color:black"
+Formatting             -- <b>/<i>/<strong>/<small>/<mark>/<del>/<ins>/<sub>/<sup>
+Quotation              -- <q>---</q>
+Blockquote             --</blockquote>  দুই পাশে জায়গা ছেড়ে দেয়
+Quotation & Citation   -- <q>/</blockquote>/<br>/<address>/<bdo dir=”rtl”>--</bdo>/    <abbr title=”--”>---<abbr>
+
+                                           ------------------+--------------------
+
+Links                     --  <a href="-"  target="_blank"></a>
+Comments                  -- <!--comment-->
+Color                     ---
+                          --- https://flatuicolors.com/  https://htmlcolorcodes.com/  colorzilla >add       
+                                Hex to rgb color converter >> https://www.rapidtables.com/convert/color/hex-to-rgb.html 
+
+                                           --------------------+------------------
+
+Images                    --- <img src="-" alt="-" width="42" height="42"   or style=”width:42;”>
+Tables                    ---  
+Lists                     ---1.Order 2.Unorder 3.Description  List  
+                                 <ul style=”list-style-type: circle/square/none/disc ”>/<li> --------- <ol type=”a”>/<li>
+
+                                          --------------------+--------------------
+
+Block elements           ---<div>/<h>/<form>/<li>/<ol>/<ul>/<nav>/<p> 
+                                    https://www.w3resource.com/html/HTML-block-level-and-inline-elements.php
+
+Inline  elements         --- a, button, br, img, q, span, sub, sup,textarea    
+                                   https://www.w3resource.com/html/HTML-block-level-and-inline-elements.php
+       
+                                         ---------------------+---------------------
+                                         
+       1. Iframes         ----   <iframe src=”” style=””></iframe>          
+                                                     
+       2.Video            ----  <video width="320" height="240" controls >
+                                               <source src="movie.mp4" type="video/mp4">
+                                                </video>  
+       3. Audio           ----   <audio controls>
+                                                 <source src="horse.ogg" type="audio/ogg">    
+                                                  </audio>
+                                               
+       4. Layout           ---- 
+       5. Forms            ----  <form action="#" method="-"  target="-">---</form>
+       6. Input type       ---- <input type="---"> 
+                                           <label for="--">--</label>
+                                           <input  type="-"  name="-"   value="-"  placeholder="-"  id="-">
+                                                   1. text                           7. Search 
+                                                   2. email                         8. reset 
+                                                   3. password                 9. date /month /number / color 
+                                                   4. file                            10. radio → name="-"
+                                                   5. submit →value="-" 11. checkbox  
+                                                   6. button                      12. Hidden  
+                                                   
+                                         ---------------------+---------------------
+
+Select                      -----    <select id="--" name="--">
+                                          <option value="--">----</option>  
+                                          <option value="--" selected or disabled>----</option>    
+                                      </select>
+          
+                                                  
+       22. Classes           ----     <style> .class{ color:green ; font-size:20px  } </style>
+                                                / /*Double class used kora jaba
+
+       23. ID                ---- <style> #id{ color:green ; font-size:20px  } </style>
+       24. Marquee           ----  <marquee><h1>---</h1></marquee>
+       25. SVG Circle        ---- 
+       26. SVG Rectangle     ----
+                                    <svg width="2000" height="2000">
+                                       // <rect width="300" height="150" style="fill: rgb(255,255,0); 
+                                               stroke-width:10; stroke: rgb(255,0,0)">
+                                          </rect>
+                                       // <rect width="300" height="150"fill="green"></rect>
+                                       // <circle cx="140"cy="70" r="50" fill="red"></circle>
+                                    </svg>
+    
+     27. Entity              --- Symbols/ Letters/ Characters  ->Entity
+                                      https://freeformatter.com/html-entities.html
+    
+     28. Symbols             --- Symbols/ Letters/ Characters  ->Symbols
+                                       https://www.toptal.com/designers/htmlarrows/symbols/
+
+     29. Favicon / shortcut icon -------
+
+                   <link rel="shortcut icon" type="image/x-icon" href="img/facebook-icon.png">   
+                    Or     link:favicon --Tab press
+
+     30. Html Comment    → →    <!––the comment––> 
+     
+     
+
+রেস্পন্সিভ বা Media Query ইউজ করার জন্য ----tag
+              <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+internet explorer & microsoft edge browser support  জন্য ----tag
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+   
+Psd to html template ------------------ web-site link
+
+      https://freebiesbug.com/psd-freebies/website-template/ 
+       https://graphicburger.com/cuda-single-page-portfolio-template/ 
+
+=========================================================================================================================================
+
+                                                 Complete Html Documentation
+                    
+                                                     Md.Habibur Rahman 
+                                                    Phone: 01743355450
