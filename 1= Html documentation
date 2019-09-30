@@ -65,13 +65,13 @@ Select                      -----    <select id="--" name="--">
                                       </select>
           
                                                   
-       22. Classes           ----     <style> .class{ color:green ; font-size:20px  } </style>
+       7. Classes           ----     <style> .class{ color:green ; font-size:20px  } </style>
                                                 / /*Double class used kora jaba
 
-       23. ID                ---- <style> #id{ color:green ; font-size:20px  } </style>
-       24. Marquee           ----  <marquee><h1>---</h1></marquee>
-       25. SVG Circle        ---- 
-       26. SVG Rectangle     ----
+       8. ID                ---- <style> #id{ color:green ; font-size:20px  } </style>
+       9. Marquee           ----  <marquee><h1>---</h1></marquee>
+       10. SVG Circle        ---- 
+       11. SVG Rectangle     ----
                                     <svg width="2000" height="2000">
                                        // <rect width="300" height="150" style="fill: rgb(255,255,0); 
                                                stroke-width:10; stroke: rgb(255,0,0)">
@@ -80,18 +80,18 @@ Select                      -----    <select id="--" name="--">
                                        // <circle cx="140"cy="70" r="50" fill="red"></circle>
                                     </svg>
     
-     27. Entity              --- Symbols/ Letters/ Characters  ->Entity
+     12. Entity              --- Symbols/ Letters/ Characters  ->Entity
                                       https://freeformatter.com/html-entities.html
     
-     28. Symbols             --- Symbols/ Letters/ Characters  ->Symbols
+     13. Symbols             --- Symbols/ Letters/ Characters  ->Symbols
                                        https://www.toptal.com/designers/htmlarrows/symbols/
 
-     29. Favicon / shortcut icon -------
+     14. Favicon / shortcut icon -------
 
                    <link rel="shortcut icon" type="image/x-icon" href="img/facebook-icon.png">   
                     Or     link:favicon --Tab press
 
-     30. Html Comment    → →    <!––the comment––> 
+     15. Html Comment    → →    <!––the comment––> 
      
      
 
